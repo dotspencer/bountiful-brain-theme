@@ -1,0 +1,14 @@
+@import 'vars';
+body {
+  font-size: $font-normal;
+}
+
+@import 'header';
+
+#masthead {
+  padding: 10px calc(50vw - (#{$main-width} / 2));
+}
+
+#content {
+  padding: 30px calc(50vw - (#{$main-width} / 2));
+}

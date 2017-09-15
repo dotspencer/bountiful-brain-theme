@@ -1,0 +1,27 @@
+body {
+  font-size: 1.1rem; }
+
+.site-title {
+  font-size: 2rem;
+  float: left;
+  margin: 0;
+  font-weight: 100; }
+  .site-title a {
+    text-decoration: none;
+    color: #333; }
+
+#site-navigation {
+  width: initial;
+  float: right;
+  clear: none; }
+  #site-navigation a {
+    font-size: 1.1rem;
+    color: #333; }
+
+#masthead {
+  padding: 10px calc(50vw - (900px / 2)); }
+
+#content {
+  padding: 30px calc(50vw - (900px / 2)); }
+
+/*# sourceMappingURL=main.css.map */
