@@ -1,8 +1,35 @@
 @import 'vars';
 
 #masthead {
-
+  padding: $center-padding;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #444;
+  color: white;
 }
+#site-navigation {
+  width: initial;
+  float: right;
+  clear: none;
+  /* Nav links */
+  a {
+    font-size: $font-normal;
+    color: inherit;
+    padding: 5px 10px;
+    margin: 8px 10px 0;
+    transition: all .15s;
+    border-radius: 4px;
+    &:hover {
+      color: dodgerblue;
+      // background-color: rgba(0, 0, 0, 0.33);
+    }
+  }
+  .current-menu-item a{
+    background-color: rgba(0, 0, 0, 0.33);
+    // color: dodgerblue;
+  }
+}
+
 .site-title {
   font-size: $font-large;
   float: left;
@@ -10,16 +37,6 @@
   font-weight: 100;
   a {
     text-decoration: none;
-    color: #333;
-  }
-}
-#site-navigation {
-  width: initial;
-  float: right;
-  clear: none;
-  a {
-    font-size: $font-normal;
-    color: #333;
-    //font-weight: 100;
+    color: inherit;
   }
 }
