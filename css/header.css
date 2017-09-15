@@ -29,6 +29,7 @@
   font-weight: 100; }
   .site-title a {
     text-decoration: none;
-    color: inherit; }
+    color: inherit;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=header.css.map */

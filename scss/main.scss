@@ -8,7 +8,8 @@ body {
 
 #content {
   padding: $center-padding;
-  min-height: calc(100vh - 100px);
+  // Height of header + height of footer
+  min-height: calc(100vh - (88px + 36px));
 }
 
 h1, h2, h3, h4 {
@@ -17,4 +18,10 @@ h1, h2, h3, h4 {
 
 .site-footer {
   padding: $center-padding;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #444;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 100;
 }
